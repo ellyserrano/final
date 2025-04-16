@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.orderingsystem.MenuController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="195.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="155.0" prefWidth="200.0">
+                     <children>
+                        <HBox prefHeight="185.0" prefWidth="200.0" style="-fx-border-color: black;">
+                           <children>
+                              <ImageView fx:id="Image1" fitHeight="132.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="10.0" prefHeight="79.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="foodNamePrice1" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="91.0" prefHeight="35.0" prefWidth="200.0">
+                           <children>
+                              <Spinner fx:id="spinner1" prefHeight="44.0" prefWidth="107.0">
+                                 <HBox.margin>
+                                    <Insets bottom="1.0" left="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </Spinner>
+                              <Button fx:id="addButton1" mnemonicParsing="false" onAction="#addItem1" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: black;" text="add" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets bottom="1.0" left="10.0" right="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="195.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="155.0" prefWidth="200.0">
+                     <children>
+                        <HBox prefHeight="185.0" prefWidth="200.0" style="-fx-border-color: black;">
+                           <children>
+                              <ImageView fx:id="Image4" fitHeight="132.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="10.0" prefHeight="79.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="foodNamePrice4" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="91.0" prefHeight="35.0" prefWidth="200.0">
+                           <children>
+                              <Spinner fx:id="spinner4" prefHeight="44.0" prefWidth="107.0">
+                                 <HBox.margin>
+                                    <Insets bottom="1.0" left="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </Spinner>
+                              <Button fx:id="addButton4" mnemonicParsing="false" onAction="#addItem4" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: black;" text="add" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets bottom="1.0" left="10.0" right="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="200.0">
+         <children>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="195.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="155.0" prefWidth="200.0">
+                     <children>
+                        <HBox prefHeight="185.0" prefWidth="200.0" style="-fx-border-color: black;">
+                           <children>
+                              <ImageView fx:id="Image2" fitHeight="132.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </ImageView>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="25.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="10.0" prefHeight="79.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="foodNamePrice2" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="91.0" prefHeight="35.0" prefWidth="200.0">
+                           <children>
+                              <Spinner fx:id="spinner2" prefHeight="44.0" prefWidth="107.0">
+                                 <HBox.margin>
+                                    <Insets bottom="1.0" left="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </Spinner>
+                              <Button fx:id="addButton2" mnemonicParsing="false" onAction="#addItem2" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: black;" text="add" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets bottom="1.0" left="10.0" right="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="195.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="155.0" prefWidth="200.0">
+                     <children>
+                        <HBox prefHeight="185.0" prefWidth="200.0" style="-fx-border-color: black;">
+                           <children>
+                              <ImageView fx:id="Image5" fitHeight="132.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="10.0" prefHeight="79.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="foodNamePrice5" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="91.0" prefHeight="35.0" prefWidth="200.0">
+                           <children>
+                              <Spinner fx:id="spinner5" prefHeight="44.0" prefWidth="107.0">
+                                 <HBox.margin>
+                                    <Insets bottom="1.0" left="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </Spinner>
+                              <Button fx:id="addButton5" mnemonicParsing="false" onAction="#addItem5" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: black;" text="add" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets bottom="1.0" left="10.0" right="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="210.0" layoutY="10.0" prefHeight="400.0" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="195.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="155.0" prefWidth="200.0">
+                     <children>
+                        <HBox prefHeight="185.0" prefWidth="200.0" style="-fx-border-color: black;">
+                           <children>
+                              <ImageView fx:id="Image3" fitHeight="132.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="10.0" prefHeight="79.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="foodNamePrice3" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="91.0" prefHeight="35.0" prefWidth="200.0">
+                           <children>
+                              <Spinner fx:id="spinner3" prefHeight="44.0" prefWidth="107.0">
+                                 <HBox.margin>
+                                    <Insets bottom="1.0" left="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </Spinner>
+                              <Button fx:id="addButton3" mnemonicParsing="false" onAction="#addItem3" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: black;" text="add" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets bottom="1.0" left="10.0" right="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="195.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="155.0" prefWidth="200.0">
+                     <children>
+                        <HBox prefHeight="185.0" prefWidth="200.0" style="-fx-border-color: black;">
+                           <children>
+                              <ImageView fx:id="Image6" fitHeight="132.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="10.0" prefHeight="79.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="foodNamePrice6" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="91.0" prefHeight="35.0" prefWidth="200.0">
+                           <children>
+                              <Spinner fx:id="spinner6" prefHeight="44.0" prefWidth="107.0">
+                                 <HBox.margin>
+                                    <Insets bottom="1.0" left="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </Spinner>
+                              <Button fx:id="addButton6" mnemonicParsing="false" onAction="#addItem6" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: black;" text="add" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets bottom="1.0" left="10.0" right="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox prefHeight="500.0" prefWidth="373.0">
+         <HBox.margin>
+            <Insets bottom="5.0" left="50.0" right="10.0" top="5.0" />
+         </HBox.margin>
+         <children>
+            <ListView fx:id="orderList" prefHeight="421.0" prefWidth="294.0">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="20.0" />
+               </VBox.margin>
+            </ListView>
+            <HBox prefHeight="54.0" prefWidth="301.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="56.0" text="TOTAL:">
+                     <HBox.margin>
+                        <Insets left="190.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="totalLabel" layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="56.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="61.0" prefWidth="304.0">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+               <children>
+                  <Button fx:id="clearButton" mnemonicParsing="false" onAction="#clearOrder" prefHeight="40.0" prefWidth="73.0" style="-fx-background-color: black;" text="CLEAR" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="130.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="orderButton" layoutX="15.0" layoutY="15.0" mnemonicParsing="false" onAction="#placeOrder" prefHeight="40.0" prefWidth="73.0" style="-fx-background-color: black;" text="ORDER" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</HBox>

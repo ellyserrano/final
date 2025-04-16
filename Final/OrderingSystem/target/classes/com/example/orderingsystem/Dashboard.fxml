@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.orderingsystem.DashboardController">
+   <left>
+       <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="189.0" BorderPane.alignment="CENTER">
+           <Button mnemonicParsing="false" onAction="#onClickHome" prefHeight="60.0" prefWidth="141.0" style="-fx-background-color: black;" text="HOME" textFill="WHITE">
+            <VBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="50.0" />
+            </VBox.margin>
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font></Button>
+           <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#onClickMenu" prefHeight="60.0" prefWidth="141.0" style="-fx-background-color: black;" text="MENU" textFill="WHITE">
+            <VBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </VBox.margin>
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font></Button>
+           <Button layoutX="10.0" layoutY="70.0" mnemonicParsing="false" onAction="#onClickTran" prefHeight="60.0" prefWidth="141.0" style="-fx-background-color: black;" text="TRANSACTION" textFill="WHITE">
+            <VBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </VBox.margin>
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font></Button>
+       </VBox>
+   </left>
+   <top>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="68.0" prefWidth="471.0" text="ORDERING SYSTEM MANAGEMENT">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="225.0" top="20.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>
